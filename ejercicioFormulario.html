@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>¡Regístrate y únete a la comunidad!</h1>
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" />
+    </div>
+    <div>
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" />
+    </div>
+    <div>
+      <label for="correo">Correo Electrónico:</label>
+      <input type="text" name="correo" />
+    </div>
+    <div>
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" name="contraseña" />
+    </div>
+    <div>
+      <label for="fecha">Fecha de Nacimiento:</label>
+      <input type="date" name="fecha" />
+    </div>
+    <div>
+      <label>Género:</label>
+      <input type="radio" name="estilo_fuente" value="bold" />
+      <label for="Masculino">Masculino</label>
+      <input type="radio" name="estilo_fuente" value="normal" />
+      <label for="Femenino">Femenino</label>
+      <input type="radio" name="estilo_fuente" value="tercero" />
+      <label for="Prefiero no decir">Prefiero no decir</label>
+    </div>
+    <div>
+        <input type="checkbox" name="suscripcion" />
+        <label for="suscripcion">Suscríbete a nuestro boletín de noticias</label>
+    </div>
+    <div>
+        <label for="comentario">Una descripción de mi mismo:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+    </div>
+    <div>
+        <label for="bandas">Selecciona tus intereses: </label>
+        <select id="bandas" name="bandas">
+            <opcion value="Música">Música</opcion>
+            <opcion value="Deportes">Deportes</opcion>
+            <opcion value="Viajes">Viajes</opcion>
+            <opcion value="Tecnología">Tecnología</opcion>
+        </select>
+     </div>
+     <div>
+        <input type="submit" value="¡Regístrarse!">
+     </div>
+  </body>
+</html>
