@@ -1,0 +1,16 @@
+h1 {
+    
+}
+
+.parrafos {
+    display: flex;
+    
+}
+
+.Nombre {
+    margin-block: 10px;
+}
+
+.submit {
+    margin-top: 20px;
+}
