@@ -1,0 +1,39 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    text-decoration: wavy underline;
+}
+
+.green {
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 50px;
+}
+
+.fucsia {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.azul {
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 50px;
+}
