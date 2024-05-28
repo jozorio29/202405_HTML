@@ -1,3 +1,9 @@
+.contenedor {
+    text-align: center;
+    margin-top: 20%;
+
+}
+
 .buscar {
 width: 180px;
 height: 50px;
@@ -12,10 +18,8 @@ background-color: #DCDCDC;
 width: 60px;
 height: 60px;
 margin-bottom: 10px;
-margin-left: 70px;
 border-radius: 100px;
 background-color: #FF4500;
-border: #FF4500;
 font-size: 35px;
 color: white;
 }
@@ -29,5 +33,8 @@ color: white;
 font-size: 20px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 box-shadow: 8px 25px 25px -12px black;
-border: #1E90FF;
+}
+
+div {
+    text-align: center;
 }
