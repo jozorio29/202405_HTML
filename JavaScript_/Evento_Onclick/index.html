@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cuerpo">
+        <div class="bloque1">
+            <h3>Petlopedia</h3>
+            <input type="text" class="input" placeholder="Buscar mascotas">
+            <div class="botonIniciar">
+                <button id="iniciar_sesion">Iniciar sesión</button>
+            </div>
+        </div>
+        <div class="container">
+        <div class="bloque2">
+            <div>
+                <div class="bloque2_child">
+                    <h2>Gato Atigrado</h2>
+                    <p><i>sustantivo</i></p>
+                    <p>Plural: Gatos Atigrados</p>
+                    <p>Un gato con un pelaje distinto que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente.</p>
+                    <button id="me_gusta_gato" onclick="clickAnimal(1); liked(1)"><span id="count_cat">0</span> me gusta</button>
+                </div>
+                <div class="">
+                    
+                </div>
+                <div class="bloque3">
+                    <h2>Golden Retriever</h2>
+                    <p><i>sustantivo</i></p>
+                    <p>Plural Golden Retrievers</p>
+                    <p>Una razas de perro amistosa. Inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlis.</p>
+                    <button id="me_gusta_perro" onclick="clickAnimal(2); liked(2)"><span id="count_perro">0</span> me gusta</button>
+                 </div>
+            </div>
+           </div>
+        <div class="bloque2_child1">
+            <label>Petlopedia está definida por TI</label>
+            <button id="agregar_difinicion">Agregar Definición</button>
+        </div>
+    </div>
+    </div>
+        <div>
+    <div>
+    <script src="script.js"></script>
+</body>
+</html>
