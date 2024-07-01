@@ -1,0 +1,8 @@
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: deeppink;
+    margin: 20px;
+    display: inline-block;
+    padding: 10px;
+  }

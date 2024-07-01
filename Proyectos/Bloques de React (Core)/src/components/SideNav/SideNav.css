@@ -1,0 +1,10 @@
+.side-nav {
+    height: 400px;
+    width: 200px;
+    background-color: #66ccff;
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
